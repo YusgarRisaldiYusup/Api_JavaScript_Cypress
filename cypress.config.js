@@ -1,7 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  projectId: process.env.CYPRESS_DASHBOARD_PROJECT_ID, // Mengambil Project ID dari variabel lingkungan
+  projectId: "jbonux",
   e2e: {
     baseUrl: "https://gorest.co.in/",
     specPattern: "cypress/support/e2e",
@@ -16,8 +16,7 @@ module.exports = defineConfig({
 
       // Menambahkan variabel lingkungan untuk Cypress Dashboard
       config.env.CYPRESS_DASHBOARD_PROJECT_ID = process.env.CYPRESS_DASHBOARD_PROJECT_ID;
-      config.env.CYPRESS_DASHBOARD_RECORD_KEY = process.env.CYPRESS_RECORD_KEY;
-
+      config.env.PERSONAL_TOKEN = process.env.PERSONAL_TOKEN;
       return config;
     },
   },
