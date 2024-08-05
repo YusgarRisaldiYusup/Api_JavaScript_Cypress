@@ -1,0 +1,17 @@
+{
+  "name": "cypress_javascript",
+  "version": "1.0.0",
+  "description": "cypress_demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Yusgar Risaldi Yusup",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.2"
+  }
+}
