@@ -4,7 +4,7 @@
   "description": "cypress_demo",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "start": "node server.js"
   },
   "keywords": [
     "cypress"
