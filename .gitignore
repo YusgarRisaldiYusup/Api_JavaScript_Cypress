@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+
+# Cypress specific files
+cypress/videos/
+cypress/screenshots/
+cypress/coverage/
+cypress/downloads/
+
+# Cypress configuration
+cypress/fixtures/*.json
+cypress/support/commands.js
+cypress/support/index.js
+
+# Logs
+*.log
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor specific files
+.vscode/
+.idea/
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+build/
+dist/
+
+# Dependency directories
+jspm_packages/
+
+# NPM lock file
+package-lock.json
+
+# Yarn lock file
+yarn.lock
+
+# Other
+*.swp
+*.swo
+*.swn
+*.swo~
