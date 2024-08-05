@@ -1,0 +1,19 @@
+name: Run Cypress Tests
+
+on: [push]
+
+jobs:
+  cypress:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Cypress tests
+        env:
+          CYPRESS_DASHBOARD_PROJECT_ID: ${{ secrets.CYPRESS_DASHBOARD_PROJECT_ID }}
+          CYPRESS_DASHBOARD_RECORD_KEY: ${{ secrets.CYPRESS_DASHBOARD_RECORD_KEY }}
+        run: npx cypress run --record --key ${{ secrets.CYPRESS_DASHBOARD_RECORD_KEY }}
