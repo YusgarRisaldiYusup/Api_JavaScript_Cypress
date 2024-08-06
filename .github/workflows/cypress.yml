@@ -28,6 +28,10 @@ jobs:
         run: npm run cypress:run
 
       - name: Generate Allure report
-        run: |
-          npm run allure:generate
-          npm run allure:open
+        run: npm run allure:generate
+
+      - name: Upload Allure report
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-report
+          path: allure-report
