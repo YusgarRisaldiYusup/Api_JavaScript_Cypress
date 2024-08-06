@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Aug 06 05:49:11 SGT 2024","Tue Aug 06 05:49:12 SGT 2024","1000","","gorest Put User testing","","Create and then update user - POST and PUT","","gorest Put User testing Create and then update user - POST and PUT",""
+"passed","Tue Aug 06 05:48:50 SGT 2024","Tue Aug 06 05:48:51 SGT 2024","1609","","gorest delete API User testing","","Post new user and then delete it - POST and DELETE","","gorest delete API User testing Post new user and then delete it - POST and DELETE",""
+"passed","Tue Aug 06 05:48:56 SGT 2024","Tue Aug 06 05:48:57 SGT 2024","1338","","gorest End-to-End User Testing","","Create, update, and then delete user - POST, GET, PUT, and DELETE","","gorest End-to-End User Testing Create, update, and then delete user - POST, GET, PUT, and DELETE",""
+"passed","Tue Aug 06 05:49:02 SGT 2024","Tue Aug 06 05:49:02 SGT 2024","218","","gorest get API User testing","","get all users - GET","","gorest get API User testing get all users - GET",""
+"passed","Tue Aug 06 05:49:06 SGT 2024","Tue Aug 06 05:49:06 SGT 2024","341","","gorest post API User testing","","Post new user - POST","","gorest post API User testing Post new user - POST",""

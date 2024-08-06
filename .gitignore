@@ -37,9 +37,6 @@ dist/
 # Dependency directories
 jspm_packages/
 
-# NPM lock file
-package-lock.json
-
 # Yarn lock file
 yarn.lock
 

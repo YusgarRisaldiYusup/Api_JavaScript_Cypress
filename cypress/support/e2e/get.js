@@ -1,3 +1,5 @@
+import "@shelex/cypress-allure-plugin";
+
 describe("gorest get API User testing", () => {
   it("get all users - GET", () => {
     cy.request("public/v2/users").as("Test_Get_All");

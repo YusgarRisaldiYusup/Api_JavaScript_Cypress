@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.648" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-08-06T05:48:50" tests="0" file="cypress\support\e2e\delete.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="gorest delete API User testing" timestamp="2024-08-06T05:48:50" tests="1" time="1.642" failures="0">
+    <testcase name="gorest delete API User testing Post new user and then delete it - POST and DELETE" time="1.609" classname="Post new user and then delete it - POST and DELETE">
+    </testcase>
+  </testsuite>
+</testsuites>

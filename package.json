@@ -4,7 +4,12 @@
   "description": "cypress_demo",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "test": "npm run cypress:run && npm run allure:generate"
   },
   "keywords": [
     "cypress"
@@ -12,6 +17,8 @@
   "author": "Yusgar Risaldi Yusup",
   "license": "ISC",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.29.0",
     "cypress": "^13.13.2"
   }
 }

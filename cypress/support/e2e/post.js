@@ -1,3 +1,5 @@
+import "@shelex/cypress-allure-plugin";
+
 const { generateUniqueEmail } = require("../emailGenerator"); // Sesuaikan path-nya // Sesuaikan path-nya
 
 describe("gorest post API User testing", () => {

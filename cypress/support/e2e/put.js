@@ -1,3 +1,5 @@
+import "@shelex/cypress-allure-plugin";
+
 const { generateUniqueEmail } = require("../emailGenerator"); // mengimpr email generator
 describe("gorest Put User testing", () => {
   it("Create and then update user - POST and PUT", () => {
